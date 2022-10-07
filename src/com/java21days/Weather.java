@@ -7,7 +7,7 @@ public class Weather {
         float toCel = convertToCelsius(fah);
         System.out.println(toCel + " degrees Celsius.");
 
-        float cel = 30;
+        float cel = 33;
         System.out.println((cel + "degrees Celsius is ..."));
         float toFah = convertToFahrenheit(cel);
         System.out.println(toFah + " degrees Fahrenheit.");
