@@ -9,6 +9,6 @@ public class Weather {
     }
 
     static float convertToCelsius(float fah) {
-        return (fah - 32)/9;
+        return (fah - 32)/9*5;
     }
 }
