@@ -2,7 +2,13 @@ package com.java21days;
 
 public class Weather {
     public static void main(String[] args) {
-        int num = 2;
-        System.out.println(num);
+        float fah = 86;
+        System.out.println(fah + " degrees Fahrenheit is ...");
+        float cel = convertToCelsius(fah);
+        System.out.println(cel);
+    }
+
+    static float convertToCelsius(float fah) {
+        return (fah - 32)/9;
     }
 }
